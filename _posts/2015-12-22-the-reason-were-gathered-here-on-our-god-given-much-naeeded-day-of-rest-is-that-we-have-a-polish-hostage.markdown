@@ -1,13 +1,11 @@
 ---
 layout: post
-title: The reason we're gathered here on our God-given, much-naeeded day
+title: First Post just Edit default Article
 tags: [frontpage, jekyll, blog]
 image: '/images/posts/8.jpg'
 ---
 
-I can remember about 4 years ago, I started to make HTML templates for ThemeForest. Unfortunately, I failed to pass the quality stage and I was not getting enough feedback from them. I was getting a general sentence saying that my item is not ready yet and the design quality is not unique enough.
-
-Fortunately, I succeed this time I have leaned and done things I have never done before that keeps me learn new stuff every single day and I want to share with you some tips about starting your own business creating themes like WordPress, Ghost, or Jekyll. I think these tips will work with any online business not only for themes.
+이거 이렇게 하는게 맞나
 
 ### Todo
 
