@@ -1,212 +1,106 @@
-# Type: Minimal and Clean Free Jekyll Theme
+<div align="center">
 
-<img alt="Type: Minimal and Clean Free Jekyll Theme" src="https://user-images.githubusercontent.com/626005/63093493-c3daa880-bf65-11e9-860e-da88047cce24.png">
+  # Chirpy Jekyll Theme
 
-- [Configurations](#configurations)
-- [Deployment](#deployment)
-- [Posts](#posts)
-- [Pages](#pages)
-- [Navigation](#navigation)
-- [Disqus Comments](#disqus-comments)
-- [Social Media Links](#social-media-links)
-- [Update favicon](#update-favicon)
+  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
-### Configurations
+  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)](https://rubygems.org/gems/jekyll-theme-chirpy)
+  [![CI](https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml/badge.svg)](https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml)
+  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4e556876a3c54d5e8f2d2857c4f43894)](https://www.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cotes2020/jekyll-theme-chirpy&amp;utm_campaign=Badge_Grade)
+  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy.svg)](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE)
+  [![996.icu](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg)](https://996.icu)
 
-Type theme comes with different customizations in the `_config.yml` file:
+  [**Live Demo →**](https://cotes2020.github.io/chirpy-demo)
 
-```sh
-title:       Type
-email:       ''
-description: ''
-baseurl:     '' # The subpath of your site, e.g. /blog
-url:         '' # The base hostname & protocol for your site
-twitter:     ''
-github:      ''
-instagram:   ''
-facebook:    ''
+  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)](https://cotes2020.github.io/chirpy-demo)
 
-markdown:  kramdown
-permalink: pretty
-paginate:  60
+</div>
 
-sass:
-  style: compressed
+## Features
 
-gems:
-  - jekyll-paginate
-  - jekyll/tagging
+- Dark/Light Theme Mode
+- Localized UI language
+- Pinned Posts
+- Hierarchical Categories
+- Trending Tags
+- Table of Contents
+- Last Modified Date of Posts
+- Syntax Highlighting
+- Mathematical Expressions
+- Mermaid Diagram & Flowchart
+- Dark/Light Mode Images
+- Embed Videos
+- Disqus/Utterances/Giscus Comments
+- Search
+- Atom Feeds
+- Google Analytics
+- Page Views Reporting
+- SEO & Performance Optimization
 
-include:
-  - _pages
+## Quick Start
 
-exclude:
-  - vendor
-  - Gemfile
-  - Gemfile.lock
+Before starting, please follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll`, and `Bundler`. In addition, [Git](https://git-scm.com/) is also required to be installed.
 
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
+### Step 1. Creating a New Site
 
-# Pages path
-defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
+Create a new repository from the [**Chirpy Starter**](https://github.com/cotes2020/chirpy-starter/generate) and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
+
+### Step 2. Installing Dependencies
+
+Before running for the first time, go to the root directory of your site, and install dependencies as follows:
+
+```console
+$ bundle
 ```
 
-### Deployment
+### Step 3. Running Local Server
 
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` to start the Jekyll server.
+Run the following command in the root directory of the site:
 
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
-
-### Posts
-
-To create a new post, you can create a new markdown file inside the `_posts` directory by following the [recommended file structure](https://jekyllrb.com/docs/posts/#creating-post-files).
-
-The following is a post file with different configurations you can add as an example:
-
-```sh
----
-layout: post
-title: Welcome to Jekyll!
-featured: true
-tags: [frontpage, jekyll, blog]
-image: '/images/welcome.jpg'
----
+```console
+$ bundle exec jekyll s
 ```
 
-You can set the author, featured or not, tags, and the post image.
+Or run with Docker:
 
-The `featured` key is to mark the post as a featured post, this will add a simple star icon (*) to the postcard.
-
-To keep things more organized, add post images to **/images/pages** directory, and add page images to **/images/pages** directory.
-
-To create a draft post, create the post file under the **_drafts** directory, and you can find more information at [Working with Drafts](http://jekyllrb.com/docs/drafts/).
-
-For tags, try to not add space between two words, for example, `Ruby on Rails`, could be something like (`ruby-on-rails`, `Ruby_on_Rails`, or `Ruby-on-Rails`).
-
-Note that tags are not working with GitHub Pages, that's because the used [jekyll-tagging
-](https://github.com/pattex/jekyll-tagging) plugin is not [whitelisted](https://pages.github.com/versions/) by GitHub.
-
-To make this work, I use [Netlify.com](https://www.netlify.com/) for deployment.
-
-### Pages
-
-To create a new page, just create a new markdown file inside the `_pages` directory.
-
-The following is the `about.md` file that you can find as an example included in the theme with the configurations you can set.
-
-```sh
----
-layout: page
-title: About
-image: '/images/pages/about.jpeg'
----
+```console
+$ docker run -it --rm \
+    --volume="$PWD:/srv/jekyll" \
+    -p 4000:4000 jekyll/jekyll \
+    jekyll serve
 ```
 
-Things you can change are: `title` and `image` path.
+After a while, navigate to the site at <http://localhost:4000>.
 
+## Documentation
 
-### Navigation
+For more details on usage, please refer to the tutorial on the [demo website](https://cotes2020.github.io/chirpy-demo/) / [wiki](https://github.com/cotes2020/jekyll-theme-chirpy/wiki). Note that the tutorial is based on the [latest release](https://github.com/cotes2020/jekyll-theme-chirpy/releases/latest), and the features of the default branch are usually ahead of the documentation.
 
-The navigation on the sidebar will automatically include all the links to the pages you have created.
+## Contributing
 
-### Disqus Comments
+Welcome to report bugs, improve code quality or submit a new feature. For more information, see [contributing guidelines](.github/CONTRIBUTING.md).
 
-Open `_includes/disqus.html` file, and change the `aspirethemes-demos` value on line `12` with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
+## Credits
 
-```js
-s.src = '//aspirethemes-demo.disqus.com/embed.js';
-```
+This theme is mainly built with [Jekyll](https://jekyllrb.com/) ecosystem, [Bootstrap](https://getbootstrap.com/), [Font Awesome](https://fontawesome.com/) and some other wonderful tools (their copyright information can be found in the relevant files). The avatar and favicon design come from [Clipart Max](https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/).
 
-So, if your Disqus shortname is `exampleone`, the final code above should be
+:tada: Thanks to all the volunteers who contributed to this project, their GitHub IDs are on [this list](https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors). Also, I won't forget those guys who submitted the issues or unmerged PR because they reported bugs, shared ideas, or inspired me to write more readable documentation.
 
-```js
-s.src = '//exampleone.disqus.com/embed.js';
-```
+Last but not least, thank [JetBrains][jb] for providing the OSS development license.
 
-That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
+## Sponsoring
 
-And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
+If you like this theme or find it helpful, please consider sponsoring me, because it will encourage and help me better maintain the project, I will be very grateful!
 
-### Social Media Links
+[![Ko-fi](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-ff5f5f?logo=ko-fi&logoColor=white)](https://ko-fi.com/coteschung)
+[![Wechat Pay](https://img.shields.io/badge/-Tip%20Me%20on%20WeChat-brightgreen?logo=wechat&logoColor=white)][cn-donation]
+[![Alipay](https://img.shields.io/badge/-Tip%20Me%20on%20Alipay-blue?logo=alipay&logoColor=white)][cn-donation]
 
-Social media links included in `_includes/footer.html` file.
+## License
 
-The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. The following is a list of the social media icons to use:
+This work is published under [MIT](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE) License.
 
-Twitter
+<!-- ReadMe links -->
 
-```html
-<span data-icon='ei-sc-twitter' data-size='s'></span>
-```
-
-Facebook
-
-```html
-<span data-icon='ei-sc-facebook' data-size='s'></span>
-```
-
-Instagram
-
-```html
-<span data-icon='ei-sc-instagram' data-size='s'></span>
-```
-
-Pinterest
-
-```html
-<span data-icon='ei-sc-pinterest' data-size='s'></span>
-```
-
-Vimeo
-
-```html
-<span data-icon='ei-sc-vimeo' data-size='s'></span>
-```
-
-Google Plus
-
-```html
-<span data-icon='ei-sc-google-plus' data-size='s'></span>
-```
-
-SoundCloud
-
-```html
-<span data-icon='ei-sc-soundcloud' data-size='s'></span>
-```
-
-Tumblr
-
-```html
-<span data-icon='ei-sc-tumblr' data-size='s'></span>
-```
-
-Youtube
-
-```html
-<span data-icon='ei-sc-youtube' data-size='s'></span>
-```
-
-### Update favicon
-
-You can find the current favicon (favicon.ico) inside the theme root directory, just replace it with your new favicon.
-
-
-### Aspire Themes
-
-👉 Visit [**aspirethemes.com**](http://bit.ly/type-jekyll-github-link) for more Jekyll, Ghost, and WordPress themes.
-
-<img alt="Aspire Themes" src="https://user-images.githubusercontent.com/626005/63092640-afe17780-bf62-11e9-9ea9-546489bb282c.png">
-
----
-
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8G8PKPEADPD42&source=url">
-  <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif">
-</a>
+[jb]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
+[cn-donation]: https://sponsor.cotes.page/
