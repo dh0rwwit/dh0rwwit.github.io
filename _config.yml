@@ -2,7 +2,7 @@
 
 theme: jekyll-theme-chirpy  # import하는 테마 명입니다. 디폴트로 사용중인 테마 명이 들어가 있으므로, 수정은 하지 않습니다.
 
-baseurl: ''     # 사용자 페이지를 만들었을 경우, 빈칸으로 둡니다. 프로젝트 페이지를 만든 경우 프로젝트 명을 적어줍니다.
+baseurl: 'https://dh0rwwit.github.io'     # 사용자 페이지를 만들었을 경우, 빈칸으로 둡니다. 프로젝트 페이지를 만든 경우 프로젝트 명을 적어줍니다.
                 # 사용자 페이지와 프로젝트 페이지를 모르신다면, [초보자를 위한 GitHub Blog 만들기 - 1](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-1/)에서 Step 1-2. repository생성을 참고하시길 바랍니다.
 
 lang: ko-KR     # 사용하는 언어 설정을 진행합니다. http://www.lingoes.net/en/translator/langcode.htm 로 접속하여 확인가능합니다.
