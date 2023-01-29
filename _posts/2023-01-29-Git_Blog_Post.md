@@ -1,18 +1,19 @@
 ---
 title: Test Article by dh0rwwit
 author: dh0rwwit
-date: 2023-01-29 20:18:00 +0800
+date: 2023-01-29 20:18:00 +0900
 categories: [Blogging, Tutorial]
 tags: [writing]
 render_with_liquid: false
 ---
 
+제목에 띄어쓰기가 있으면 안 됨
 
 ## Naming and Path
 
 글씨 진하게 : 작은 따옴표 이용
 {: .filepath} 이건 뭔지 모르겠다.
-링크 : [네이버](www.naver.com)
+링크 : [네이버](https://www.naver.com/)
 
 ## Front Matter
 코드입력하기
@@ -52,7 +53,9 @@ tags: [bee]
 
 ## Mermaid
 큰 괄호안에 와일드 카드 2개로 글을 다시 감싸고 옆에 링크를 붙이면 
-[**네이버**](www.naver.com)
+[**네이버**](https://www.naver.com/)
+
+[https://www.**youtube**.com/watch?v=**H-B46URT4mg**](https://www.youtube.com/watch?v=H-B46URT4mg)
 
 ### Position
 
