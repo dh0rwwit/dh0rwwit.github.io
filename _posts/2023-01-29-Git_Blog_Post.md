@@ -26,9 +26,7 @@ Issue title contains page URL 체크
 D:\Git_Blog\dh0rwwit.github.io\_layouts\posts
 안에 추가 해줘서 만들었다.
 
-![use-English-uploading-Photo](assets/img/favicons/utteranc_Script.png){: width="928" height="797"}
-
-![google-analytics-data-stream](/posts/20210103/01-google-analytics-data-stream.png){: width="1086" height="542"}
+![use-English-uploading-Photo](/assets/img/favicons/utteranc_Script.png){: width="928" height="797" }
 
 ## Naming and Path
 
