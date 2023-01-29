@@ -7,7 +7,28 @@ tags: [writing]
 render_with_liquid: false
 ---
 
-제목에 띄어쓰기가 있으면 안 됨
+
+D:\Git_Blog\~.github.io\_posts 안에 포스트를 작성하는데
+해당 파일 제목에 띄어쓰기가 있으면 안 됨
+
+그리고 작성하고 commit and push하기 전에 항상 
+``` cmd
+bundle exec jekyll serve
+```
+를 실행해줘야 하는 번거로움이 있다....
+
+깃허브로 블로그 만들고 구글에 검색 활성화에 추적까지는 
+[https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-4/](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-4/) 이 분 홈페이지 보고 만들었다.
+
+댓글 기능은 https://utteranc.es/ 에서 repo 입력
+Issue title contains page URL 체크
+해서 생성된 스크립트를 
+D:\Git_Blog\dh0rwwit.github.io\_layouts\posts
+안에 추가 해줘서 만들었다.
+
+![use-English-uploading-Photo](assets/img/favicons/utteranc_Script.png){: width="928" height="797"}
+
+![google-analytics-data-stream](/posts/20210103/01-google-analytics-data-stream.png){: width="1086" height="542"}
 
 ## Naming and Path
 
