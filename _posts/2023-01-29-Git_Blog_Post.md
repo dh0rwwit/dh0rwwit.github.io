@@ -26,7 +26,11 @@ Issue title contains page URL 체크
 D:\Git_Blog\dh0rwwit.github.io\_layouts\posts
 안에 추가 해줘서 만들었다.
 
+https://chirpy-img.netlify.app/...
+
 ...이미지 파일이 제대로 올라가질 않음
+
+![Desktop View](/assets/img/favicons/utteranc_Script_0.png){: .normal }
 
 ## Naming and Path
 
