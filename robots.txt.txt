@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://dh0rwwit.github.io/sitemap.xml
