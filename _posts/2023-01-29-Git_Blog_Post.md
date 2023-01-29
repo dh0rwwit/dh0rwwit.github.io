@@ -11,15 +11,17 @@ render_with_liquid: false
 D:\Git_Blog\~.github.io\_posts 안에 포스트를 작성하는데
 해당 파일 제목에 띄어쓰기가 있으면 안 됨
 
-그리고 작성하고 commit and push하기 전에 항상 
+그리고 _config.yml을 수정한 경우에는 자신의 로컬 레파지토리 경로에서 항상 
 
 ```console
-위에 붙이는 ```옆에 타이틀 이름은 아무거나 붙일 수는 없는거 같다 
-console, yaml, _config.yml,,,,무슨 원리인지는 알아봐야 할 거 같지만 필요한 기능은 아니기도 함
+
+(위에 붙이는 ```옆에 타이틀 이름은 아무거나 붙일 수는 없는거 같다 
+console, yaml, _config.yml,,,,무슨 원리인지는 알아봐야 할 거 같지만 필요한 기능은 아니기도 함)
+
 bundle exec jekyll serve
 ```
 
-를 실행해줘야 하는 번거로움이 있다....
+를 재실행해줘야 하는 번거로움이 있다....
 
 깃허브로 블로그 만들고 구글에 검색 활성화에 추적까지는 
 [https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-4/](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-4/) 이 분 홈페이지 보고 만들었다.
@@ -32,9 +34,13 @@ D:\Git_Blog\dh0rwwit.github.io\_layouts\posts
 
 https://chirpy-img.netlify.app/...
 
-...이미지 파일이 제대로 올라가질 않음
 
 ![Desktop View](/assets/img/favicons/utteranc_Script_0.png){: .normal }
+이미지 파일 적용을 위해서는 _config.yml에서 
+
+img_cdn: ''으로 변경한다.
+기본 값은 img_cdn: 'https://chirpy-img.netlify.app'이다.
+
 
 ## Naming and Path
 
