@@ -12,9 +12,13 @@ D:\Git_Blog\~.github.io\_posts 안에 포스트를 작성하는데
 해당 파일 제목에 띄어쓰기가 있으면 안 됨
 
 그리고 작성하고 commit and push하기 전에 항상 
-``` cmd
+
+```console
+위에 붙이는 ```옆에 타이틀 이름은 아무거나 붙일 수는 없는거 같다 
+console, yaml, _config.yml,,,,무슨 원리인지는 알아봐야 할 거 같지만 필요한 기능은 아니기도 함
 bundle exec jekyll serve
 ```
+
 를 실행해줘야 하는 번거로움이 있다....
 
 깃허브로 블로그 만들고 구글에 검색 활성화에 추적까지는 
@@ -41,7 +45,8 @@ https://chirpy-img.netlify.app/...
 ## Front Matter
 코드입력하기
 윗 첨자(`)를 3개 입력하여 시작하고 다시 3개를 입력하여 닫는다.
-``` Title
+
+```
 title: TITLE
 date: YYYY-MM-DD HH:MM:SS +/-TTTT
 categories: [TOP_CATEGORIE, SUB_CATEGORIE]
@@ -82,23 +87,23 @@ tags: [bee]
 
 ### Position
 
-``` 주황색 느낌표
+주황색 느낌표
 > 오른쪽 화살표 입력후 중괄호 안에 : .prompt-warning
 {: .prompt-warning }
 
 ```
-
-
-- **Normal position**
+**Normal position**
   {: .nolineno}  이게 뭔지 모르겠다.
-
+```
 
 
 ### 영상 올리기
+
 ```
 |column 1                              |column 2           | 
 |--------------------------------------|-------------------|
 |other language like korean doesn't fit| `value`           |
+```
 
 | Video URL                                                                                          | Platform  | ID            |
 |----------------------------------------------------------------------------------------------------|-----------|:--------------|
