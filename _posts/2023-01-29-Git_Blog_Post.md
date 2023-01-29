@@ -26,7 +26,7 @@ Issue title contains page URL 체크
 D:\Git_Blog\dh0rwwit.github.io\_layouts\posts
 안에 추가 해줘서 만들었다.
 
-![use-English-uploading-Photo](/assets/img/favicons/utteranc_Script.png){: width="928" height="797" }
+...이미지 파일이 제대로 올라가질 않음
 
 ## Naming and Path
 
