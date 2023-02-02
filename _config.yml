@@ -1,7 +1,7 @@
 # The Site Configuration
 
 # Import the theme
-theme: jekyll-theme-chirpy
+theme: jekyll-theme-chirpy # 수정하지 말기
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 
 title: dh0rwwit                          # the main title
 
-tagline: at least code, more&faster   # it will display as the sub-title
+tagline: Code at least, more effect, faster work  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
