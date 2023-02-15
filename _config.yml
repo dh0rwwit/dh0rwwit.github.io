@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 
 title: dh0rwwit                          # the main title
 
-tagline: Code at least, more effect, faster work  # it will display as the sub-title
+tagline: Since 2023-02  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
