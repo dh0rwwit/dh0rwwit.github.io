@@ -1,5 +1,5 @@
 ---
-title: 1. java의 접근제어자 public
+title: 1. java의 접근제어자 따로 설정 안했을 때
 author: dh0rwwit
 date: 2023-05-19 00:00:00 +2300
 categories: [Language,JAVA]
