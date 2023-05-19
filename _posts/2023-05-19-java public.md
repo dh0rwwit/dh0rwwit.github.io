@@ -1,5 +1,5 @@
 ---
-title: java의 접근제어자 public
+title: 1. java의 접근제어자 public
 author: dh0rwwit
 date: 2023-05-19 00:00:00 +0900
 categories: [Language,JAVA]
