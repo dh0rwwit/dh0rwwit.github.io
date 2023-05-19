@@ -8,84 +8,7 @@ render_with_liquid: false
 ---
 
 <!-- HTML generated using hilite.me -->
-<div style="background: #272822; overflow:auto;width:auto;border:solid brown;font-size:17px;background:#000000;border-width:.2em .2em .2em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #75715e">// 생성자 : 클래스 선언안하고 괄호가 있으면 생성자.</span>
+<div style="background: #272822; overflow:auto;width:auto;border:solid brown;font-size:17px;background:#000000;border-width:.2em .2em .2em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #75715e">// 생성자 : 클래스 선언안하고 괄호가 있으면 생성자.</span>
 <span style="color: #66d9ef">class</span> <span style="color: #960050; background-color: #1e0010">부모</span><span style="color: #a6e22e">A</span> <span style="color: #f92672">{</span> <span style="color: #75715e">//</span>
     <span style="color: #960050; background-color: #1e0010">부모</span><span style="color: #f8f8f2">A</span><span style="color: #f92672">(){};</span> <span style="color: #75715e">// 생성자는 없어도 된다. </span>
     <span style="color: #960050; background-color: #1e0010">부모</span><span style="color: #f8f8f2">A</span><span style="color: #f92672">(</span><span style="color: #66d9ef">int</span> <span style="color: #960050; background-color: #1e0010">매개변수</span><span style="color: #f8f8f2">e</span><span style="color: #f92672">){</span>
@@ -163,6 +86,4 @@ render_with_liquid: false
         <span style="color: #f8f8f2">System</span><span style="color: #f92672">.</span><span style="color: #a6e22e">out</span><span style="color: #f92672">.</span><span style="color: #a6e22e">println</span><span style="color: #f92672">(</span><span style="color: #f8f8f2">cell5</span><span style="color: #f92672">.</span><span style="color: #a6e22e">d</span><span style="color: #f92672">);</span> <span style="color: #75715e">// static으로 정의된 public 함수에 객체 접근 출력</span>
 	<span style="color: #f92672">}</span>
 <span style="color: #f92672">}</span>
-</pre></td></tr></table></div>
-
-
+</pre></div>
