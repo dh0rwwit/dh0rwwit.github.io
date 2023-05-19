@@ -1,7 +1,7 @@
 ---
 title: 1. java의 접근제어자 public
 author: dh0rwwit
-date: 2023-05-19 00:00:00 +0900
+date: 2023-05-19 00:00:00 +2400
 categories: [Language,JAVA]
 tags: [접근제어자,Public]
 render_with_liquid: false
