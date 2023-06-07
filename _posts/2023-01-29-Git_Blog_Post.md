@@ -2,7 +2,7 @@
 title: Test Article by dh0rwwit
 author: dh0rwwit
 date: 2023-01-29 20:18:00 +0900
-categories: [Blogging, Tutorial]
+categories: [other, Tutorial]
 tags: [writing]
 render_with_liquid: false
 ---
