@@ -1,0 +1,10 @@
+---
+title: 1. Select in String Type
+author: dh0rwwit
+date: 2023-11-29 16:00:00 +2300
+categories: [Language/Framework,C#]
+tags: [.NET, C#]
+render_with_liquid: false
+---
+
+<div class="colorscripter-code" style="color:#F2E1E1;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#000000;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #4f4f4f"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#aaa;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#F2E1E1;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#4A8FE6">string</span>&nbsp;strQuery&nbsp;<span style="color:#33B3B3"></span><span style="color:#4A8FE6">=</span>&nbsp;@<span style="color:#E14E9D">"CustomerCode&nbsp;LIKE&nbsp;'%"</span>&nbsp;<span style="color:#33B3B3"></span><span style="color:#4A8FE6">+</span>&nbsp;strCustomerCode&nbsp;<span style="color:#33B3B3"></span><span style="color:#4A8FE6">+</span>&nbsp;<span style="color:#E14E9D">"%'&nbsp;AND&nbsp;CustomerName&nbsp;LIKE&nbsp;'%"</span>&nbsp;<span style="color:#33B3B3"></span><span style="color:#4A8FE6">+</span>&nbsp;strCustomerName&nbsp;<span style="color:#33B3B3"></span><span style="color:#4A8FE6">+</span>&nbsp;<span style="color:#E14E9D">"%'"</span>;&nbsp;</div></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#4f4f4f;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
