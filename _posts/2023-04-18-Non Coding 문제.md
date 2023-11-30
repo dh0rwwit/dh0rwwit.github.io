@@ -1,9 +1,9 @@
 ---
-title: 실기 2022년 10월 _ Non Coding 문제 
+title: Non Coding 문제 
 author: dh0rwwit
 date: 2023-04-18 01:00:00 +0600
-categories: [정처기실기,Non Calculating]
-tags: [정처기실기,비계산문제]
+categories: [기타시험,Non Calculating]
+tags: [비계산문제,2022_10]
 render_with_liquid: false
 ---
 
