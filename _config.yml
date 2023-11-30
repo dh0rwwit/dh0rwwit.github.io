@@ -198,3 +198,11 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+categories:
+  - name: NewCategory
+    slug: New Slug
+  - name: Lifestyle
+    slug: lifestyle
+  - name: Travel
+    slug: travel
