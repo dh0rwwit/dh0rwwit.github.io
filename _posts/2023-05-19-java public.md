@@ -2,7 +2,7 @@
 title: 1. java의 접근제어자 따로 설정 안했을 때
 author: dh0rwwit
 date: 2023-06-02 00:00:00 +2300
-categories: [Language/Framework,JAVA]
+categories: [Language/Framework,Others(JAVA+Spring+C)]
 tags: [접근제어자,Public]
 render_with_liquid: false
 ---
