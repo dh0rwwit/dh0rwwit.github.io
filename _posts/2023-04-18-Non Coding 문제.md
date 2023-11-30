@@ -2,8 +2,8 @@
 title: Non Coding 문제 
 author: dh0rwwit
 date: 2023-04-18 01:00:00 +0600
-categories: [기타시험,Non Calculating]
-tags: [비계산문제,2022_10]
+categories: [Others,Non Calculating]
+tags: [비계산문제,2022년 10월]
 render_with_liquid: false
 ---
 

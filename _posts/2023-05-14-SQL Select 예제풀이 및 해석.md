@@ -2,7 +2,7 @@
 title: SQL Select 예제풀이 및 해석
 author: dh0rwwit
 date: 2023-05-14 00:00:00 +0600
-categories: [기타시험,SQL_Oracle]
+categories: [Others,기타시험]
 tags: [SQL_ORACLE]
 render_with_liquid: false
 ---
