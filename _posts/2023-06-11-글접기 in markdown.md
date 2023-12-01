@@ -2,7 +2,7 @@
 title: 글 접기 in markdown
 author: dh0rwwit
 date: 2023-06-11 00:00:00 +2300
-categories: [other, 글쓸때참고사항]
+categories: [Others, 글쓸때참고사항]
 tags: [글 접기]
 render_with_liquid: false
 ---
