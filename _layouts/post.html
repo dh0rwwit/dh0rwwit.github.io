@@ -49,8 +49,7 @@ tail_includes:
     <!-- author(s) -->
     <span>
       {% if page.author %}
-        <!-- {% assign authors = page.author %} -->
-        {% assign authors = dh0rwwit %}
+        {% assign authors = page.author %}
       {% elsif page.authors %}
         {% assign authors = page.authors %}
       {% endif %}
@@ -60,7 +59,8 @@ tail_includes:
       <em>
       {% if authors %}
         {% for author in authors %}
-          <a href="{{ site.data.authors[author].url }}">{{ site.data.authors[author].name }}</a>
+          <!-- <a href="{{ site.data.authors[author].url }}">{{ site.data.authors[author].name }}</a> -->
+          <a href="https://github.com/dh0rwwit">dh0rwwit</a>
           {% unless forloop.last %}</em>, <em>{% endunless %}
         {% endfor %}
       {% else %}
