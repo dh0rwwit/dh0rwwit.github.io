@@ -16,8 +16,7 @@ MSSQL에서는 <br>
 SET int_MaxNumb = (SELECT ColumnName FROM TableName)<br>
 과 같은 형태로 가능하다만, <br>
 여기선 <br>
-
-<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid brown;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">SELECT</span> <span style="color: #f8f8f2">ColumnName</span>
+<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid brown;background:black;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">SELECT</span> <span style="color: #f8f8f2">ColumnName</span>
 <span style="color: #66d9ef">INTO</span> <span style="color: #f8f8f2">ValueName</span>
 <span style="color: #66d9ef">FROM</span> <span style="color: #e6db74">&quot;NS&quot;</span><span style="color: #f8f8f2">.</span><span style="color: #e6db74">&quot;Table_A&quot;</span><span style="color: #f8f8f2">;</span>
 </pre></div>
