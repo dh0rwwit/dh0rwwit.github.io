@@ -2,7 +2,7 @@
 title: Test Article by dh0rwwit
 author: dh0rwwit
 date: 2023-11-30 10:00:00 +0900
-categories: [Others, Tutorial]
+categories:[깃 헙 페이지, 글 쓰는 법]
 tags: [writing]
 render_with_liquid: false
 ---
