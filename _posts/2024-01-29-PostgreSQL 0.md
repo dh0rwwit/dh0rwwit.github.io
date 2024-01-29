@@ -7,10 +7,10 @@ tags: [Postgresql,Procedure]
 render_with_liquid: false
 ---
 MSSQL과는 달리, <br>
-스키마,\"",\'' 등의 문법이 좀 더 까다로운 거 같다.
+스키마,\"\",\'\' 등의 문법이 좀 더 까다로운 거 같다.
 <br>
-\""로 감싸줘야 하는 것 : 컬럼이름, 테이블이름 <br>
-\''로 감싸줘야 하는 것 : 입력하려는 값 <br>
+\"\"로 감싸줘야 하는 것 : 컬럼이름, 테이블이름 <br>
+\'\'로 감싸줘야 하는 것 : 입력하려는 값 <br>
 그리고 프로시저에서는 반환값 확인을 위해 select 도중에 into로 값을 넣어줘야하는 것도 상이하다.<br>
 MSSQL에서는 <br>
 SET int_MaxNumb = (SELECT ColumnName FROM TableName)<br>
