@@ -16,6 +16,10 @@ MSSQL에서는 <br>
 SET int_MaxNumb = (SELECT ColumnName FROM TableName)<br>
 과 같은 형태로 가능하다만, <br>
 여기선 <br>
-<div class="colorscripter-code" style="color:#f0f0f0;font-family:Consolas,font-size:'20px' ,'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#272727;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #4f4f4f"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#aaa;font-family:Consolas,font-size:'20px' ,'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#f0f0f0;font-family:Consolas,font-size:'20px' ,'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><font color="#ff3399">SELECT</font>&nbsp;ColumnName</div><div style="padding:0 6px; white-space:pre; line-height:130%"><font color="#ff3399">INTO</font>&nbsp;ValueName</div><div style="padding:0 6px; white-space:pre; line-height:130%"><font color="#ff3399">FROM</font>&nbsp;<font color="#ffd500">"NS"</font>.<font color="#ffd500">"Table_A"</font>;</div></div></tr></table></div>
-<br>
+
+<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid brown;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">SELECT</span> <span style="color: #f8f8f2">ColumnName</span>
+<span style="color: #66d9ef">INTO</span> <span style="color: #f8f8f2">ValueName</span>
+<span style="color: #66d9ef">FROM</span> <span style="color: #e6db74">&quot;NS&quot;</span><span style="color: #f8f8f2">.</span><span style="color: #e6db74">&quot;Table_A&quot;</span><span style="color: #f8f8f2">;</span>
+</pre></div>
+
 의 형태로 만들어줘야한다.
