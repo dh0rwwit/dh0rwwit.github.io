@@ -33,3 +33,27 @@ C#에서 주로 사용되는 몇 가지 컬렉션 유형은 다음과 같습니�
 
 </details>
 
+<details>
+<summary> Que 2. 컬렉션 집합 이외에 뭐가 또 있어? </summary>
+<br>
+컬렉션과는 다르지만 개념적으로 스칼라 변수의 반대되는 개념으로 간주될 수 있는 것은 "레퍼런스 타입"입니다. <br>
+스칼라 변수는 값을 직접 포함하는 반면, 레퍼런스 타입은 실제 데이터의 위치를 가리키는 참조(reference)를 저장합니다. C#에서 주로 사용되는 레퍼런스 타입은 다음과 같습니다:<br>
+<br>
+클래스(Class): 객체 지향 프로그래밍에서 사용되는 기본적인 레퍼런스 타입입니다. 클래스는 멤버 변수, 메서드 등을 포함하는 사용자 정의 타입을 정의할 수 있습니다.<br>
+인터페이스(Interface): 클래스가 구현해야 하는 메서드 집합을 정의하는 레퍼런스 타입입니다.<br>
+배열(Array): 이전에 언급한 것처럼 배열은 컬렉션이지만, 배열의 각 요소는 레퍼런스 타입일 수 있습니다.<br>
+<br>
+이러한 레퍼런스 타입들은 스칼라 변수와는 달리 실제 데이터의 위치를 참조하므로, 해당 데이터에 대한 변경 사항은 참조하는 모든 변수에 영향을 미칠 수 있습니다.<br>
+</details>
+<br>
+
+<details>
+<summary> Que 23.  c#에서 사용하는 집합의 종류엔 뭐가 있어? </summary>
+<br>
+C#에서 사용되는 집합(Set)의 구현은 주로 컬렉션 인터페이스에 기반합니다. 다양한 종류의 집합이 C#에서 제공되며, 그 중 몇 가지 주요한 것들은 다음과 같습니다:
+
+1. HashSet<T>: 중복된 원소를 허용하지 않는 집합을 나타냅니다. HashSet<T> 클래스는 해시 테이블을 기반으로 하며, 검색 속도가 빠릅니다.
+<div class="colorscripter-code" style="color:#73E1F7;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#000000;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #4f4f4f"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#aaa;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#73E1F7;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%">HashSet<span style="color:#FEF705"></span><span style="color:#FE05F2">&lt;</span><span style="color:#FE05F2">int</span><span style="color:#FE05F2">&gt;</span>&nbsp;mySet&nbsp;<span style="color:#FEF705"></span><span style="color:#FE05F2">=</span>&nbsp;<span style="color:#FE05F2">new</span>&nbsp;HashSet<span style="color:#FEF705"></span><span style="color:#FE05F2">&lt;</span><span style="color:#FE05F2">int</span><span style="color:#FE05F2">&gt;</span>&nbsp;{&nbsp;<span style="color:#FEFEFE">1</span>,&nbsp;<span style="color:#FEFEFE">2</span>,&nbsp;<span style="color:#FEFEFE">3</span>,&nbsp;<span style="color:#FEFEFE">4</span>,&nbsp;<span style="color:#FEFEFE">5</span>&nbsp;};</div></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#4f4f4f;color:white;border-radius:10px;padding:1px"><br></span></a></td></tr></table></div>
+
+<br>
+</details>
