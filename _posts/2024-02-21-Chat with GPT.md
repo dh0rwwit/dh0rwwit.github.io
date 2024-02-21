@@ -67,15 +67,7 @@ background-color:#4f4f4f;color:white;border-radius:10px;padding:1px"></span></a>
 
 
 4. Dictionary<TKey, TValue>: 키-값 쌍을 저장하는 집합으로, 각 키는 고유해야 합니다. 키를 사용하여 값을 검색하는 데 사용됩니다.
-```csharp
-// markdown code block
-Dictionary<string, int> myDictionary = new Dictionary<string, int>
-{
-    { "One", 1 },
-    { "Two", 2 },
-    { "Three", 3 }
-};
-```
+<script src="https://gist.github.com/dh0rwwit/0ea50a61f7541a598b1c026b133054fc.js"></script>
 </details>
 
-markdown code block 양식이 간단하다
+markdown code block 양식이 간단하다.
