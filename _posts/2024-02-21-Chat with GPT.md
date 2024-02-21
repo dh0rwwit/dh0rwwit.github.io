@@ -65,14 +65,16 @@ background-color:#4f4f4f;color:white;border-radius:10px;padding:1px"></span></a>
 3. List<T>: 리스트는 순서가 있는 원소의 컬렉션으로, 중복된 원소를 허용합니다. 리스트의 특징은 순서가 있으며, 각 원소는 인덱스로 접근할 수 있습니다.
 <div class="colorscripter-code" style="color:#73E1F7;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#000000;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #4f4f4f"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#aaa;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#73E1F7;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#FEF705">List</span><span style="color:#FE05F2">&lt;</span><span style="color:#FE05F2">int</span><span style="color:#FE05F2">&gt;</span>&nbsp;myList&nbsp;<span style="color:#FEF705"></span><span style="color:#FE05F2">=</span>&nbsp;<span style="color:#FE05F2">new</span>&nbsp;<span style="color:#FEF705">List</span><span style="color:#FE05F2">&lt;</span><span style="color:#FE05F2">int</span><span style="color:#FE05F2">&gt;</span>&nbsp;{&nbsp;<span style="color:#FEFEFE">1</span>,&nbsp;<span style="color:#FEFEFE">2</span>,&nbsp;<span style="color:#FEFEFE">3</span>,&nbsp;<span style="color:#FEFEFE">4</span>,&nbsp;<span style="color:#FEFEFE">5</span>&nbsp;};</div></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#4f4f4f;color:white;border-radius:10px;padding:1px"></span></a></td></tr></table></div>
 
+
 4. Dictionary<TKey, TValue>: 키-값 쌍을 저장하는 집합으로, 각 키는 고유해야 합니다. 키를 사용하여 값을 검색하는 데 사용됩니다.
-```c#
+```csharp
+// markdown code block
 Dictionary<string, int> myDictionary = new Dictionary<string, int>
 {
     { "One", 1 },
     { "Two", 2 },
     { "Three", 3 }
 };
-```
+
 
 </details>
