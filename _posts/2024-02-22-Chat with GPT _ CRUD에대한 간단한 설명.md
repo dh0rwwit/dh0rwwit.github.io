@@ -16,7 +16,6 @@ render_with_liquid: false
 1. 트리(Tree)
 - 트리는 계층 구조를 가지는 비선형 자료구조로, 루트 노드에서 시작하여 각 노드가 여러 자식 노드를 가질 수 있습니다.
 - 트리는 이진 트리, 이진 탐색 트리, AVL 트리 등 다양한 형태가 있습니다.
-
 ```cs
 public class TreeNode<T>
 {
