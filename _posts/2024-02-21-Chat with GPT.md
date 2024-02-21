@@ -68,4 +68,12 @@ background-color:#4f4f4f;color:white;border-radius:10px;padding:1px"></span></a>
 
 4. Dictionary<TKey, TValue>: 키-값 쌍을 저장하는 집합으로, 각 키는 고유해야 합니다. 키를 사용하여 값을 검색하는 데 사용됩니다.
 <script src="https://gist.github.com/dh0rwwit/0ea50a61f7541a598b1c026b133054fc.js"></script>
+
 </details>
+...<br>
+
+5. 그 외 기타 코드 블럭 테스트
+
+https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=text%2Fx-csharp&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=Dictionary%253Cstring%252C%2520int%253E%2520myDictionary%2520%253D%2520new%2520Dictionary%253Cstring%252C%2520int%253E%250A%257B%250A%2520%2520%2520%2520%257B%2520%2522One%2522%252C%25201%2520%257D%252C%250A%2520%2520%2520%2520%257B%2520%2522Two%2522%252C%25202%2520%257D%252C%250A%2520%2520%2520%2520%257B%2520%2522Three%2522%252C%25203%2520%257D%250A%257D%253B
+
+6. 
