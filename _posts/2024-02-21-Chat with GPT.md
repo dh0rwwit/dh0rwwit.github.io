@@ -75,6 +75,7 @@ Dictionary<string, int> myDictionary = new Dictionary<string, int>
     { "Two", 2 },
     { "Three", 3 }
 };
-
-
+```
 </details>
+
+markdown code block 양식이 간단하다
