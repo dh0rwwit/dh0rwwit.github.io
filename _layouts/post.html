@@ -12,12 +12,16 @@ tail_includes:
 <h1 data-toc-skip>{{ page.title }}</h1>
 
 <div class="post-meta text-muted">
+  <style>
+    span {
+      font-family: Tahoma, sans-serif;
+    }
+  </style>
     <!-- published date -->
     <span>
       {{ site.data.locales[site.lang].post.posted }}
       {% include datetime.html date=page.date tooltip=true %}
     </span>
-
     <!-- lastmod date -->
     {% if page.last_modified_at %}
     <span>

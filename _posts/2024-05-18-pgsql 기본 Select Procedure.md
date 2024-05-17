@@ -7,12 +7,6 @@ tags:
 render_with_liquid: false
 ---
 
-<style>
-  span {
-    font-family: Tahoma, sans-serif;
-  }
-</style>
-
 <!-- HTML generated using hilite.me -->
 <div style="background: #272822; overflow:auto;width:auto;border:solid brown;font-style:Tahoma;background:black;border-width:.2em .2em .2em .6em;padding:.2em .5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef"><span style="font-family: Tahoma, sans-serif;">CREATE</span> <span style="color: #66d9ef">OR</span> <span style="color: #66d9ef">REPLACE</span> <span style="color: #66d9ef">PROCEDURE</span> <span style="color: #f8f8f2">select_masuser</span>
 <span style="color: #f8f8f2">(</span>
