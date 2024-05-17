@@ -7,21 +7,20 @@ tags:
 render_with_liquid: false
 ---
 
-<!-- HTML generated using hilite.me -->
-<div style="background: #000000; overflow:auto;width:auto;border:solid brown;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">select</span> <span style="color: #f92672">*</span> <span style="color: #66d9ef">from</span> <span style="color: #f8f8f2">scm</span><span style="color: #ae81ff">.</span><span style="color: #f8f8f2">del_log</span>
+<!-- HTML generated using hilite.me --><div style="background: #000000; overflow:auto;width:auto;border:solid brown;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">select</span> <span style="color: #f92672">*</span> <span style="color: #66d9ef">from</span> <span style="color: #f8f8f2">scm</span><span style="color: #ae81ff">.</span><span style="color: #f8f8f2">del_log</span>
 
 <span style="color: #75715e">-- JSON INSERT</span>
 <span style="color: #66d9ef">INSERT</span> <span style="color: #66d9ef">INTO</span> <span style="color: #f8f8f2">scm</span><span style="color: #ae81ff">.</span><span style="color: #f8f8f2">del_log</span> <span style="color: #f8f8f2">(sc_name,</span> <span style="color: #f8f8f2">tbl_name,</span> <span style="color: #f8f8f2">deleted_json</span> <span style="color: #f8f8f2">)</span>
 <span style="color: #66d9ef">VALUES</span>
 <span style="color: #f8f8f2">(</span>
-	<span style="color: #e6db74">&#39;스키마0&#39;</span><span style="color: #f8f8f2">,</span><span style="color: #e6db74">&#39;테이블&#39;</span>
-	<span style="color: #f8f8f2">,JSON_BUILD_OBJECT</span>
-	<span style="color: #f8f8f2">(</span>
-		<span style="color: #e6db74">&#39;키0&#39;</span><span style="color: #f8f8f2">,</span><span style="color: #e6db74">&#39;값0&#39;</span>
-		<span style="color: #f8f8f2">,</span><span style="color: #e6db74">&#39;키1&#39;</span><span style="color: #f8f8f2">,</span><span style="color: #e6db74">&#39;값1&#39;</span>
-		<span style="color: #f8f8f2">,</span><span style="color: #e6db74">&#39;키2&#39;</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">0</span>
-		<span style="color: #f8f8f2">,</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">1</span>
-	<span style="color: #f8f8f2">)</span>	
+    <span style="color: #e6db74">&#39;스키마0&#39;</span><span style="color: #f8f8f2">,</span><span style="color: #e6db74">&#39;테이블&#39;</span>
+    <span style="color: #f8f8f2">,JSON_BUILD_OBJECT</span>
+    <span style="color: #f8f8f2">(</span>
+        <span style="color: #e6db74">&#39;키0&#39;</span><span style="color: #f8f8f2">,</span><span style="color: #e6db74">&#39;값0&#39;</span>
+        <span style="color: #f8f8f2">,</span><span style="color: #e6db74">&#39;키1&#39;</span><span style="color: #f8f8f2">,</span><span style="color: #e6db74">&#39;값1&#39;</span>
+        <span style="color: #f8f8f2">,</span><span style="color: #e6db74">&#39;키2&#39;</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">0</span>
+        <span style="color: #f8f8f2">,</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">1</span>
+    <span style="color: #f8f8f2">)</span>	
 <span style="color: #f8f8f2">)</span>
 
 <span style="color: #75715e">-- 배열 UPDATE</span>
@@ -31,15 +30,15 @@ render_with_liquid: false
 
 <span style="color: #75715e">-- JSON 추가</span>
 <span style="color: #66d9ef">INSERT</span> <span style="color: #66d9ef">INTO</span>
-	<span style="color: #f8f8f2">DHKIMSCH</span><span style="color: #ae81ff">.</span><span style="color: #f8f8f2">DEL_LOG</span> <span style="color: #f8f8f2">(DELETED_JSON)</span>
+    <span style="color: #f8f8f2">DHKIMSCH</span><span style="color: #ae81ff">.</span><span style="color: #f8f8f2">DEL_LOG</span> <span style="color: #f8f8f2">(DELETED_JSON)</span>
 <span style="color: #66d9ef">VALUES</span>
 <span style="color: #f8f8f2">(</span>
-	<span style="color: #f8f8f2">JSON_BUILD_OBJECT(</span>
-		<span style="color: #e6db74">&#39;key&#39;</span><span style="color: #f8f8f2">,</span>
-		<span style="color: #e6db74">&#39;value&#39;</span><span style="color: #f8f8f2">,</span>
-		<span style="color: #e6db74">&#39;array&#39;</span><span style="color: #f8f8f2">,</span>
-		<span style="color: #f8f8f2">JSON_BUILD_ARRAY(</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">2</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">3</span><span style="color: #f8f8f2">)</span>
-	<span style="color: #f8f8f2">)</span>
+    <span style="color: #f8f8f2">JSON_BUILD_OBJECT(</span>
+        <span style="color: #e6db74">&#39;key&#39;</span><span style="color: #f8f8f2">,</span>
+        <span style="color: #e6db74">&#39;value&#39;</span><span style="color: #f8f8f2">,</span>
+        <span style="color: #e6db74">&#39;array&#39;</span><span style="color: #f8f8f2">,</span>
+        <span style="color: #f8f8f2">JSON_BUILD_ARRAY(</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">2</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">3</span><span style="color: #f8f8f2">)</span>
+    <span style="color: #f8f8f2">)</span>
 <span style="color: #f8f8f2">)</span>
 	
 
