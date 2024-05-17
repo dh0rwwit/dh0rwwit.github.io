@@ -7,12 +7,31 @@ tags:
 render_with_liquid: false
 ---
 
-<div class="colorscripter-code" style="color:#63FFF8;font-family:Tahoma, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#020202;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #4f4f4f"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#aaa;font-family:Tahoma, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div><div style="line-height:130%">4</div><div style="line-height:130%">5</div><div style="line-height:130%">6</div><div style="line-height:130%">7</div><div style="line-height:130%">8</div><div style="line-height:130%">9</div><div style="line-height:130%">10</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#63FFF8;font-family:Tahoma, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#FA2F58">CREATE</span>&nbsp;OR&nbsp;REPLACE&nbsp;PROCEDURE&nbsp;select_masuser</div><div style="padding:0 6px; white-space:pre; line-height:130%">(</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;INOUT&nbsp;result&nbsp;refcursor</div><div style="padding:0 6px; white-space:pre; line-height:130%">)</div><div style="padding:0 6px; white-space:pre; line-height:130%">LANGUAGE&nbsp;plpgsql</div><div style="padding:0 6px; white-space:pre; line-height:130%">AS&nbsp;$$</div><div style="padding:0 6px; white-space:pre; line-height:130%">BEGIN</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;OPEN&nbsp;RESULT&nbsp;FOR</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;<span style="color:#FA2F58">SELECT</span>&nbsp;<span style="color:#63FFF8"></span><span style="color:#FD8F04">*</span>&nbsp;<span style="color:#FA2F58">FROM</span>&nbsp;scm.<span style="color:#07FD41">"MASUser"</span>;</div><div style="padding:0 6px; white-space:pre; line-height:130%">END;$$;</div></div><div style="text-align:right;margin-top:-13px;margin-right:5px;font-size:9px;font-style:italic"><a href="http://colorscripter.com/info#e" target="_blank" style="color:#4f4f4ftext-decoration:none">Colored by Color Scripter</a></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#4f4f4f;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+<style>
+  span {
+    font-family: Tahoma, sans-serif;
+  }
+</style>
+
+<!-- HTML generated using hilite.me -->
+<div style="background: #272822; overflow:auto;width:auto;border:solid brown;font-style:Tahoma;background:black;border-width:.2em .2em .2em .6em;padding:.2em .5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef"><span style="font-family: Tahoma, sans-serif;">CREATE</span> <span style="color: #66d9ef">OR</span> <span style="color: #66d9ef">REPLACE</span> <span style="color: #66d9ef">PROCEDURE</span> <span style="color: #f8f8f2">select_masuser</span>
+<span style="color: #f8f8f2">(</span>
+    <span style="color: #66d9ef">INOUT</span> <span style="color: #f8f8f2">result</span> <span style="color: #f8f8f2">refcursor</span>
+<span style="color: #f8f8f2">)</span>
+<span style="color: #66d9ef">LANGUAGE</span> <span style="color: #f8f8f2">plpgsql</span>
+<span style="color: #66d9ef">AS</span> <span style="color: #e6db74">$$</span>
+<span style="color: #66d9ef">BEGIN</span>
+    <span style="color: #66d9ef">OPEN</span> <span style="color: #f8f8f2">RESULT</span> <span style="color: #66d9ef">FOR</span>
+    <span style="color: #66d9ef">SELECT</span> <span style="color: #f92672">*</span> <span style="color: #66d9ef">FROM</span> <span style="color: #f8f8f2">scm</span><span style="color: #ae81ff">.</span><span style="color: #e6db74">&quot;MASUser&quot;</span><span style="color: #f8f8f2">;</span>
+<span style="color: #66d9ef">END</span><span style="color: #f8f8f2">;</span><span style="color: #e6db74">$$</span><span style="color: #f8f8f2">;</span>
+</pre></div>
 
 
 <br>
-
-<div class="colorscripter-code" style="color:#63FFF8;font-family:Tahoma, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#020202;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #4f4f4f"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#aaa;font-family:Tahoma, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#63FFF8;font-family:Tahoma, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%">call&nbsp;select_masuser(<span style="color:#07FD41">'ans'</span>);</div><div style="padding:0 6px; white-space:pre; line-height:130%">fetch&nbsp;all&nbsp;in&nbsp;ans;</div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">--&nbsp;FETCH&nbsp;ALL&nbsp;IN&nbsp;구문은&nbsp;PostgreSQL에서&nbsp;refcursor를&nbsp;사용하여&nbsp;커서의&nbsp;모든&nbsp;행을&nbsp;가져올&nbsp;때&nbsp;사용</span></div></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#4f4f4f;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid brown;font-style:Tahoma;background:black;border-width:.2em .2em .2em .6em;padding:.2em .5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f8f8f2">CALL</span> <span style="color: #f8f8f2">select_masuser(</span><span style="color: #e6db74">&#39;ans&#39;</span><span style="color: #f8f8f2">);</span>
+<span style="color: #66d9ef">FETCH</span> <span style="color: #66d9ef">ALL</span> <span style="color: #66d9ef">IN</span> <span style="color: #f8f8f2">ans;</span>
+<span style="color: #75715e">-- FETCH ALL IN 구문은 PostgreSQL에서 refcursor를 사용하여 커서의 모든 행을 가져올 때 사용</span>
+</pre></div>
 
 <BR>
 1. MSSQL의 프로시저와는 많이 다르다. <BR>
