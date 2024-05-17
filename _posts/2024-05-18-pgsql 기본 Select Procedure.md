@@ -32,3 +32,8 @@ render_with_liquid: false
 <BR>
 1. MSSQL의 프로시저와는 많이 다르다. <BR>
 과장 좀 보태서 그냥 다 잊어버려도 되는 정도...
+2. 프로시저 삭제는
+
+<!-- HTML generated using hilite.me -->
+<div style="background: #272822; overflow:auto;width:auto;border:solid brown;border-width:.1em .1em .1em .6em;padding:.2em .4em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">DROP</span> <span style="color: #66d9ef">PROCEDURE</span> <span style="color: #66d9ef">IF</span> <span style="color: #66d9ef">EXISTS</span> <span style="color: #f8f8f2">get_user_by_id;</span>
+</pre></div>
