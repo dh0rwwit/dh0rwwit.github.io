@@ -1,7 +1,7 @@
 ---
 title: 기본 Select Procedure
 author: dh0rwwit
-date: 2024-05-18 00:00:00 +0100
+date: 2024-05-18 00:00:00 +0400
 categories: [SQL, PostgreSQL]
 tags: 
 render_with_liquid: false
