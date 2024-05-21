@@ -26,10 +26,12 @@ render_with_liquid: false
 <br>
 
 <!-- HTML generated using hilite.me -->
-<div style="background: #272822; overflow:auto;width:auto;border:solid brown;font-style:Tahoma;background:black;border-width:.2em .2em .2em .6em;padding:.2em .5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f8f8f2">CALL</span> <span style="color: #f8f8f2">select_masuser(</span><span style="color: #e6db74">&#39;ans&#39;</span><span style="color: #f8f8f2">);</span>
+<div style="background: #000000; overflow:auto;width:auto;border:solid brown;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f8f8f2">CALL</span> <span style="color: #f8f8f2">s_masuser(</span><span style="color: #e6db74">&#39;ans&#39;</span><span style="color: #f8f8f2">);</span>
 <span style="color: #66d9ef">FETCH</span> <span style="color: #66d9ef">ALL</span> <span style="color: #66d9ef">IN</span> <span style="color: #f8f8f2">ans;</span>
 <span style="color: #75715e">-- FETCH ALL IN 구문은 PostgreSQL에서 refcursor를 사용하여 커서의 모든 행을 가져올 때 사용</span>
+<span style="color: #75715e">-- INOUT 타입 쓰면 커서 선언 필요없음.</span>
 </pre></div>
+
 
 
 <BR>
