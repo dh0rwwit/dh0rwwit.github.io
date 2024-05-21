@@ -8,17 +8,20 @@ render_with_liquid: false
 ---
 
 <!-- HTML generated using hilite.me -->
-<div style="background: #272822; overflow:auto;width:auto;border:solid brown;font-style:Tahoma;background:black;border-width:.2em .2em .2em .6em;padding:.2em .5em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">CREATE</span> <span style="color: #66d9ef">OR</span> <span style="color: #66d9ef">REPLACE</span> <span style="color: #66d9ef">PROCEDURE</span> <span style="color: #f8f8f2">select_masuser</span>
+<div style="background: #000000; overflow:auto;width:auto;border:solid brown;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">CREATE</span> <span style="color: #66d9ef">OR</span> <span style="color: #66d9ef">REPLACE</span> <span style="color: #66d9ef">PROCEDURE</span> <span style="color: #f8f8f2">scm</span><span style="color: #ae81ff">.</span><span style="color: #f8f8f2">s_masuser</span>
 <span style="color: #f8f8f2">(</span>
-    <span style="color: #66d9ef">INOUT</span> <span style="color: #f8f8f2">result</span> <span style="color: #f8f8f2">refcursor</span>
+    <span style="color: #66d9ef">INOUT</span> <span style="color: #f8f8f2">io_result</span> <span style="color: #f8f8f2">refcursor</span>
 <span style="color: #f8f8f2">)</span>
-<span style="color: #66d9ef">LANGUAGE</span> <span style="color: #f8f8f2">plpgsql</span>
-<span style="color: #66d9ef">AS</span> <span style="color: #e6db74">$$</span>
+<span style="color: #66d9ef">LANGUAGE</span> <span style="color: #e6db74">&#39;plpgsql&#39;</span>
+<span style="color: #66d9ef">AS</span> <span style="color: #e6db74">$BODY$</span>
 <span style="color: #66d9ef">BEGIN</span>
-    <span style="color: #66d9ef">OPEN</span> <span style="color: #f8f8f2">RESULT</span> <span style="color: #66d9ef">FOR</span>
+    <span style="color: #66d9ef">OPEN</span> <span style="color: #f8f8f2">io_result</span> <span style="color: #66d9ef">FOR</span>
     <span style="color: #66d9ef">SELECT</span> <span style="color: #f92672">*</span> <span style="color: #66d9ef">FROM</span> <span style="color: #f8f8f2">scm</span><span style="color: #ae81ff">.</span><span style="color: #e6db74">&quot;MASUser&quot;</span><span style="color: #f8f8f2">;</span>
-<span style="color: #66d9ef">END</span><span style="color: #f8f8f2">;</span><span style="color: #e6db74">$$</span><span style="color: #f8f8f2">;</span>
+<span style="color: #66d9ef">END</span><span style="color: #f8f8f2">;</span>
+<span style="color: #e6db74">$BODY$</span><span style="color: #f8f8f2">;</span>
 </pre></div>
+
+
 
 <br>
 
