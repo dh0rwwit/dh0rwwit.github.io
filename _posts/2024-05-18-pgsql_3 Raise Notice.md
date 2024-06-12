@@ -51,7 +51,6 @@ render_with_liquid: false
 
 
 
-
-### 3. ''과 null
 <br>
+### 3. ''과 null
 - ORACLE에서는 길이 0의 string인 ''도 null로 인식했는데, 그래도 pgsql이나 mssql은 각자 다르게('', NULL) 구분한다.
