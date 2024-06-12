@@ -9,10 +9,11 @@ render_with_liquid: false
 
 ### 1. RAISE NOTCE는 ssms의 PRINT와 같다.
 <!-- HTML generated using hilite.me -->
-<div style="background: #000000; overflow:auto;width:auto;border:solid lightgreen;background:black;border-width:.1em .1em .1em .6em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #ff0000">DO</span> <span style="color: #87ceeb">$$ BEGIN</span>
-<span style="color: #87ceeb">RAISE NOTICE &#39;FDS&#39;;</span>
-<span style="color: #87ceeb">END; $$</span>
+<div style="background: #111111; overflow:auto;width:auto;border:solid gray;border-width:.em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #fb660a; font-weight: bold">DO</span> <span style="color: #ffffff">$$</span> <span style="color: #fb660a; font-weight: bold">BEGIN</span>
+<span style="color: #ffffff">RAISE</span> <span style="color: #ffffff">NOTICE</span> <span style="color: #0086d2">&#39;FDS&#39;</span><span style="color: #ffffff">;</span>
+<span style="color: #fb660a; font-weight: bold">END</span><span style="color: #ffffff">;</span> <span style="color: #ffffff">$$</span>
 </pre></div>
+
 
 <br>
 
@@ -39,6 +40,18 @@ render_with_liquid: false
 <span style="color: #fb660a; font-weight: bold">END</span> <span style="color: #ffffff">$$;</span>
 </pre></div>
 
+<!-- HTML generated using hilite.me -->
+<div style="background: #111111; overflow:auto;width:auto;border:solid gray;border-width:.em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #ffffff">-- 출력결과 --</span>
+<span style="color: #ffffff">NOTICE:  Value of v_nullchk0: f</span>
+<span style="color: #ffffff">NOTICE:  Value of v_nullchk1: t</span>
+<span style="color: #ffffff">NOTICE:  Value of v_bt1: f</span>
+<span style="color: #ffffff">NOTICE:  false</span>
+<span style="color: #ffffff">DO</span>
+</pre></div>
 
+
+
+
+### 3. ''과 null
 <br>
-- ORACLE에서는 길이 0의 string인 ''도 null로 인식했는데, 그래도 pgsql이나 mssql은 각자 구분한다.
+- ORACLE에서는 길이 0의 string인 ''도 null로 인식했는데, 그래도 pgsql이나 mssql은 각자 다르게('', NULL) 구분한다.
