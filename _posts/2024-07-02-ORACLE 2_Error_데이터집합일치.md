@@ -1,5 +1,5 @@
 ---
-title: ErrorMessage - 문자집합이 일치하지 않습니다...
+title: ErrorMessage 문자집합이 일치하지 않습니다...
 author: dh0rwwit
 date: 2024-07-02 00:00:00 +2300
 categories: [SQL, ORACLE]
