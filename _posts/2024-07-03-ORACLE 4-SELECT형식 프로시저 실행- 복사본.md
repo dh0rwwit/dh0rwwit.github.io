@@ -17,5 +17,4 @@ render_with_liquid: false
 
 <BR>
 
-- 
 - 근데 그냥 프로시저 편집 상태에서 CTRL+F10(실행) 해서 변수에 값 넣고 출력변수 값 보는게 낫다.
