@@ -1,7 +1,7 @@
 ---
 title: ascii code in Oracle
 author: dh0rwwit
-date: 2025-05-07 00:00:00 +2200
+date: 2025-05-11 00:00:00 +2300
 categories: [SQL, ORACLE]
 tags: [ORACLE]
 render_with_liquid: false
